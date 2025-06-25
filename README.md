@@ -1,12 +1,63 @@
-# React + Vite
+🏫 Parmatma Shiv Vidyalaya – School Website
+A fully responsive, modern school website built using React.js to provide a clean and informative digital presence for Parmatma Shiv Vidyalaya. This project showcases essential school features, contact details, and a user-friendly interface to serve students, parents, and educators.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Site: parmatmashivvidalaya.tech
 
-Currently, two official plugins are available:
+📌 Features
+🎯 Built with React JS and Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🖼️ Dynamic and visually appealing design
 
-## Expanding the ESLint configuration
+🧑‍🏫 Pages for About, Admissions, Contact, and more
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Fully responsive on mobile, tablet, and desktop
+
+📍 Integrated Google Maps and contact form
+
+⚡ Fast load times and smooth user experience
+
+🛠️ Tech Stack
+React.js
+
+Vite
+
+CSS 
+
+React Router DOM (for navigation)
+
+Deployed on: Hostinger
+
+🚀 Getting Started
+Prerequisites
+Make sure you have Node.js and npm or yarn installed.
+
+Installation
+git clone https://github.com/Rakshanda0904/school-website.git
+cd school-website
+npm install
+npm run dev
+
+Build for Production
+npm run build
+📁 Folder Structure
+
+/school-website
+│
+├── public/
+│   └── assets/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+🧑‍💻 Author
+Rakshanda Patil
+Developer, Designer, and Tech Enthusiast
+🔗 GitHub
+📧 Email: mridulapatil049@example.com
+
+📄 License
+This project is open-source and available under the MIT License.
