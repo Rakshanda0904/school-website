@@ -1,0 +1,46 @@
+.footer {
+    margin: 20px auto !important; /* Adds space around the footer */
+    padding: 20px !important; /* Adds space inside the footer */
+    max-width: 1200px !important; /* Restricts width */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    border-top: 1px solid #797979 !important;
+}
+
+.footer ul {
+    padding: 0 !important;
+    margin: 0!important;
+}
+
+.footer ul li {
+    list-style: none !important;
+    display: inline-block !important;
+    margin-left: 20px !important;
+}
+
+/* Optional: Center the footer content on all screen sizes */
+.footer-container {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+@media (max-width:600px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .footer ul li {
+        font-size: 14px;
+        margin: 5px;
+    }
+}

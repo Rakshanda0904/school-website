@@ -1,0 +1,125 @@
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.contact-col{
+    flex-basis: 48%;
+    color: #676767;
+}
+.contact-col h3{
+    color: #000F38;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-title {
+    text-align: center;
+    color: #212EA0;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 50px 0 30px;
+}
+
+.contact-title h2 {
+    font-size: 32px;
+    color: #000F38;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+.contact-col h3 img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.contact-col p{
+    max-width: 450px;
+    list-style: 0.3;
+}
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-col ul li img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.contact-col form button{
+        background: white;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+}
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+
+.map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.map-container iframe {
+    width: 80%;
+    max-width: 800px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width:768px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .map-container iframe {
+        width: 90%;
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .contact {
+        flex-direction: column;
+    }
+    .contact-col {
+        text-align: center;
+    }
+    .map-container iframe {
+        height: 220px;
+        width: 100%;
+        margin: 15px;
+    }
+}
