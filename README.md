@@ -84,7 +84,7 @@ Developer, Designer, and Tech Enthusiast
 
 🔗 GitHub
 
-📧 Email: mridulapatil049@example.com
+📧 Email: mridulapatil049@gmail.com
 
 📄 License
 This project is open-source and available under the MIT License.
